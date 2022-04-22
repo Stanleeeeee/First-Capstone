@@ -293,7 +293,6 @@ button:focus::after {
   opacity: 0.6;
   display: block;
   margin: 30px auto;
-  
 }
 
 .technologies {
