@@ -113,6 +113,7 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .top-navbar ul li {
@@ -123,7 +124,7 @@ nav {
   font-size: 1rem;
   border: 2px solid gray;
   padding: 15px 25px;
-  margin-top: 30px;
+  margin-top: 29px;
 }
 
 /* Header design */
@@ -158,6 +159,7 @@ span#welcome {
   -webkit-text-fill-color: transparent;
   font-family: "cocogoose", sans-serif;
   color: #ec5242;
+  font-size: 3.3rem;
 }
 
 .headline h1 .h1-span {
@@ -215,22 +217,24 @@ button::before {
   border-radius: 1000px;
   min-width: calc(300px + 12px);
   min-height: calc(60px + 12px);
-  border: 6px solid #00FFCB;
-  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  border: 6px solid #00ffcb;
+  box-shadow: 0 0 60px rgba(0, 255, 203, 0.64);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  transition: all .3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
   color: #313133;
   transform: translateY(-6px);
 }
 
-button:hover::before, button:focus::before {
+button:hover::before,
+button:focus::before {
   opacity: 1;
 }
 
@@ -239,7 +243,7 @@ button::after {
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  border: 6px solid #00FFCB;
+  border: 6px solid #00ffcb;
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -343,11 +347,7 @@ button:focus::after {
 #program button:hover {
   cursor: pointer;
   color: #fff;
-  }
-  
-  button:hover: after {
-    width: 100%;
-  }
+}
 
 #program #see-program {
   display: none;
@@ -558,18 +558,6 @@ footer .logo div {
   line-height: 1.5;
 }
 
-/* Media Queries */
-@media (max-width: 380px) {
-  .headline h1 {
-    font-size: 1.8rem;
-  }
-
-  header #next-class {
-    font-size: 1.2rem;
-  }
-}
-
-
 /* Desktop Version */
 @media (min-width: 768px) {
   nav {
@@ -580,7 +568,7 @@ footer .logo div {
     border-bottom: 1px solid #e9e7e7;
     background-color: #faf7f7;
     box-shadow: 0 0 8px 3px #c4c1c1;
-    position: relative;
+    position: -webkit-sticky;
     z-index: 1;
   }
 
@@ -625,7 +613,7 @@ footer .logo div {
     text-align: center;
   }
 
-  .top-navbar .logo span a {
+  .top-navbar .logo a {
     color: #ec5242;
     text-decoration: none;
   }
@@ -650,7 +638,7 @@ footer .logo div {
     width: 80%;
     min-width: 768px;
     padding: 15px 0;
-    height: 90px;
+    height: 30px;
   }
 
   footer .logo {
@@ -661,6 +649,7 @@ footer .logo div {
 
   .top-navbar .logo {
     display: flex;
+    margin-top: -60px;
   }
 
   .top-navbar ul {
@@ -668,6 +657,7 @@ footer .logo div {
     width: 55%;
     justify-content: flex-end;
     gap: 10%;
+    margin-top: -40px;
   }
 
   .top-navbar ul li {
@@ -676,14 +666,17 @@ footer .logo div {
 
   #campaign {
     border: 5px solid #ec5242;
-    padding: 10px;
   }
 
-  .top-navbar #campaign span {
+  .top-navbar #campaign {
+    font-size: 1rem;
+    border: 2px solid gray;
+    padding: 15px 25px;
+    margin-top: -3.3rem;
     color: #ec5242;
   }
 
-  .top-navbar #campaign span i {
+  .top-navbar #campaign i {
     margin-right: 7px;
   }
 

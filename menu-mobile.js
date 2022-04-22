@@ -16,8 +16,6 @@ function resetMenu() {
   document.body.style.position = 'relative';
   document.body.style.overflow = 'scroll';
   navbar.classList.remove('open-menu');
-  topNav.classList.remove('topmost-bar');
-  bottomNav.classList.remove('top-navbar');
 }
 
 function resizeWindow() {

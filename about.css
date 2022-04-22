@@ -123,7 +123,7 @@ nav {
   font-size: 1rem;
   border: 2px solid gray;
   padding: 15px 25px;
-  margin-top: 30px;
+  margin-top: 29px;
 }
 
 /* Header design */
@@ -507,7 +507,7 @@ footer .logo div#logo-name {
     width: 80%;
     min-width: 768px;
     padding: 15px 0;
-    height: 90px;
+    height: 30px;
   }
 
   footer .logo {
@@ -519,14 +519,15 @@ footer .logo div#logo-name {
 
   .top-navbar .logo {
     display: flex;
+    margin-top: -60px;
   }
-
 
   .top-navbar ul {
     display: flex;
     width: 55%;
     justify-content: flex-end;
     gap: 10%;
+    margin-top: -40px;
   }
 
   .top-navbar ul li {
@@ -538,7 +539,11 @@ footer .logo div#logo-name {
     padding: 10px;
   }
 
-  .top-navbar #campaign span {
+  .top-navbar #campaign {
+    font-size: 1rem;
+    border: 2px solid gray;
+    padding: 15px 25px;
+    margin-top: -3.5rem;
     color: #ec5242;
   }
 

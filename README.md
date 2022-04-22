@@ -1,56 +1,33 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
+  Stanmega-tech Web Development
 
-> Description the project.
+# > Description:
+This is my first Microverse Capstone project. I utilized all i have learned so far in html, css and javascript in building this project. It has the mobile and Desktop versions, with the mobile version having a hamburger menu option that drops down when clicked4. You can click on the ABOUT to go to the about page and HOME to go back to the home page.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- JAVASCRIPT
+- GIT/GITHUB
 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+## video link
+https://www.loom.com/share/fce5683385364d8eb4c234ae7053537c
 
 ## Authors
 
-👤 **Author1**
+👤 **Ezeoke Stanley**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@stanleeeeee](https://github.com/stanleeeeee)
+- Twitter: [@Stanmega89](https://twitter.com/Stanmega89)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
@@ -64,6 +41,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Original design idea by ##Cindy Shin## in ##Behance.##
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
