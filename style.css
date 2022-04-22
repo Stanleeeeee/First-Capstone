@@ -753,7 +753,7 @@ footer .logo div {
     justify-content: center;
     align-self: center;
     max-width: 70%;
-    margin-left: 145px;
+    margin-left: 150px;
     gap: 12px;
   }
 
@@ -770,7 +770,7 @@ footer .logo div {
 
   .access {
     text-align: center;
-    margin-left: 380px;
+    margin-left: 350px;
   }
 
   main #program #languages-container .technologies h3 {
