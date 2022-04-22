@@ -203,8 +203,9 @@ span#welcome {
   border-radius: 3px;
   background-color: #ec5242;
   color: #fff;
+  display: block;
+  margin: 0 auto;
   width: 300px;
-  margin-left: 50px;
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
@@ -742,6 +743,8 @@ footer .logo div {
 
   main #program {
     background-position: bottom;
+    display: block;
+    margin: 0 auto;
   }
 
   main #program h2 {
@@ -752,8 +755,9 @@ footer .logo div {
     display: flex;
     justify-content: center;
     align-self: center;
+    align-items: center;
     max-width: 70%;
-    margin-left: 150px;
+    margin: 0 auto;
     gap: 12px;
   }
 
@@ -770,7 +774,6 @@ footer .logo div {
 
   .access {
     text-align: center;
-    margin-left: 350px;
   }
 
   main #program #languages-container .technologies h3 {
