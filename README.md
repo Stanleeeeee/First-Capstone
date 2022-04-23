@@ -3,8 +3,8 @@
 # Project Name
   Stanmega-tech Web Development
 
-# > Description:
-This is my first Microverse Capstone project. I utilized all i have learned so far in html, css and javascript in building this project. It has the mobile and Desktop versions, with the mobile version having a hamburger menu option that drops down when clicked4. You can click on the ABOUT to go to the about page and HOME to go back to the home page.
+#  Description:
+This is my first Microverse Capstone project. I utilized all i have learned so far in html, css and javascript in building this project. It has the mobile and Desktop versions, with the mobile version having a hamburger menu option that drops down when clicked on. You can click on the ABOUT to go to the about page and HOME to go back to the home page. In the HOME page, the professionals were created dynamically using JavaScript object.
 
 
 ## Built With
@@ -14,7 +14,7 @@ This is my first Microverse Capstone project. I utilized all i have learned so f
 - JAVASCRIPT
 - GIT/GITHUB
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://stanleeeeee.github.io/First-Capstone/)
 
